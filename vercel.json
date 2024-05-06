@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/(.*)",
-            "destination": "/ngixconf.json"
+            "destination": "/ngix.conf"
         }
     ]
 }
