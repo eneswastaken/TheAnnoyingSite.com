@@ -27,5 +27,13 @@
     "start": "npm run serve",
     "test": "standard",
     "watch": "npm run serve"
+{
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/static/index.html"
+        }
+    ]
+}
   }
 }
